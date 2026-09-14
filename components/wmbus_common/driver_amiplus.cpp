@@ -245,7 +245,7 @@ namespace
             "Reactive power (inductive).",
             DEFAULT_PRINT_PROPERTIES,
             Quantity::Reactive_Power,
-            VifScaling::Auto, DifSignedness::Signed,
+            VifScaling::None, DifSignedness::Signed,
             FieldMatcher::build()
             .set(DifVifKey("0BFB14")),
             Unit::KVAR
@@ -267,7 +267,7 @@ namespace
             "Reactive power (capacitive).",
             DEFAULT_PRINT_PROPERTIES,
             Quantity::Reactive_Power,
-            VifScaling::Auto, DifSignedness::Signed,
+            VifScaling::None, DifSignedness::Signed,
             FieldMatcher::build()
             .set(DifVifKey("0BFB943C")),
             Unit::KVAR
