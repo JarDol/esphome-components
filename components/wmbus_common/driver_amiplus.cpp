@@ -241,7 +241,7 @@ namespace
         );
 
         addNumericFieldWithExtractor(
-            "reactive_power_inductive",
+            "reactive_power_inductiver",
             "Reactive power (inductive).",
             DEFAULT_PRINT_PROPERTIES,
             Quantity::Reactive_Power,
@@ -263,7 +263,7 @@ namespace
         );
 
         addNumericFieldWithExtractor(
-            "reactive_power_capacitive",
+            "reactive_power_capacitiver",
             "Reactive power (capacitive).",
             DEFAULT_PRINT_PROPERTIES,
             Quantity::Reactive_Power,
