@@ -248,6 +248,7 @@ namespace
             VifScaling::None, DifSignedness::Signed,
             FieldMatcher::build()
             .set(DifVifKey("0BFB14")),
+            Unit::VAR,
             0.001
         );
 
@@ -270,6 +271,7 @@ namespace
             VifScaling::None, DifSignedness::Signed,
             FieldMatcher::build()
             .set(DifVifKey("0BFB943C")),
+            Unit::VAR,
             0.001
         );
 
