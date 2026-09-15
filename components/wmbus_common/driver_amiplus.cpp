@@ -237,7 +237,7 @@ namespace
             VifScaling::None, DifSignedness::Signed,
             FieldMatcher::build()
             .set(DifVifKey("0BFB14")),
-            Unit::VAR
+            Unit::KVAR
         );
 
         addNumericFieldWithExtractor(
@@ -248,7 +248,7 @@ namespace
             VifScaling::Auto, DifSignedness::Signed,
             FieldMatcher::build()
             .set(DifVifKey("0BFB14")),
-            Unit::KVAR
+            0.001
         );
 
         addNumericFieldWithExtractor(
@@ -270,7 +270,7 @@ namespace
             VifScaling::Auto, DifSignedness::Signed,
             FieldMatcher::build()
             .set(DifVifKey("0BFB943C")),
-            Unit::KVAR
+            0.001
         );
 
         addNumericFieldWithExtractor(
