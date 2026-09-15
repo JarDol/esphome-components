@@ -241,18 +241,6 @@ namespace
         );
 
         addNumericFieldWithExtractor(
-            "reactive_power_inductive",
-            "Reactive power (inductive).",
-            DEFAULT_PRINT_PROPERTIES,
-            Quantity::Reactive_Power,
-            VifScaling::None, DifSignedness::Signed,
-            FieldMatcher::build()
-            .set(DifVifKey("0BFB14")),
-            Unit::VAR,
-            0.001
-        );
-
-        addNumericFieldWithExtractor(
             "current_reactive_power_c",
             "Current reactive power (C).",
             DEFAULT_PRINT_PROPERTIES,
@@ -261,18 +249,6 @@ namespace
             FieldMatcher::build()
             .set(DifVifKey("0BFB943C")),
             Unit::VAR
-        );
-
-        addNumericFieldWithExtractor(
-            "reactive_power_capacitive",
-            "Reactive power (capacitive).",
-            DEFAULT_PRINT_PROPERTIES,
-            Quantity::Reactive_Power,
-            VifScaling::None, DifSignedness::Signed,
-            FieldMatcher::build()
-            .set(DifVifKey("0BFB943C")),
-            Unit::VAR,
-            0.001
         );
 
         addNumericFieldWithExtractor(
