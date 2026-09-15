@@ -264,7 +264,8 @@ namespace
         );
 
         addNumericFieldWithExtractor(
-                        "reactive_power_capacitive",
+            "reactive_power_capacitive",
+            "Reactive power (capacitive).",
             DEFAULT_PRINT_PROPERTIES,
             Quantity::Reactive_Power,
             VifScaling::None, DifSignedness::Signed,
